@@ -5,13 +5,13 @@ Project created to complete the web programming course.
 ## To Create Database
 
 ### Database Settings
-ServerName = localhost
-UserName = root
-Password = 
-DataBase Name = to_do_list
+ServerName = localhost <br/>
+UserName = root <br/>
+Password =  <br/>
+DataBase Name = to_do_list <br/>
 
-To change settings access db_conn.php
-Database MySQL 5.7.21
+To change settings access db_conn.php <br/>
+Database MySQL 5.7.21 <br/>
 
 ### Script to create Database
 <code>CREATE DATABASE IF NOT EXISTS `to_do_list` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
