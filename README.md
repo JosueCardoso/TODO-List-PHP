@@ -14,13 +14,13 @@ To change settings access db_conn.php
 Database MySQL 5.7.21
 
 ### Script to create Database
-CREATE DATABASE IF NOT EXISTS `to_do_list` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `to_do_list`;
+<code>CREATE DATABASE IF NOT EXISTS `to_do_list` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `to_do_list`;</code>
 
-CREATE TABLE IF NOT EXISTS `todos` (
+<code>CREATE TABLE IF NOT EXISTS `todos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` text NOT NULL,
   `date_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `checked` tinyint(1) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;</code>
